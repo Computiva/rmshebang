@@ -1,0 +1,6 @@
+#! /bin/bash
+
+shebang=`head -n 1 "$2"`
+sed --in-place --expression '1d' "$2"
+"$1" "$2"
+sed --in-place --expression "1i$shebang" "$2"
