@@ -1,4 +1,4 @@
-# rmshebang 1
+# rmshebang 1.1
 
 Remove shebang line to run an executable.
 
